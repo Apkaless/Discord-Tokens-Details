@@ -1,7 +1,8 @@
 import base64
 from DiscordTokens import token_validator
 
-token_ = 'd9UD5UtDYAyyRj2mFJhDbOOkVJ1UCL1i8VTBgBI0dKj0MAQZQ3SUw+qUFAWaPKUsaLUTdVu2BYJiah9ukCyEsOobPhvIZF3V5HUMhr8jYfHp1sSsibuqt0mT6eYxIv9h0dGWlw=='
+encrypted_token_ = 'd9UD5UtDYAyyRj2mFJhDbOOkVJ1UCL1i8VTBgBI0dKj0MAQZQ3SUw+qUFAWaPKUsaLUTdVu2BYJiah9ukCyEsOobPhvIZF3V5HUMhr8jYfHp1sSsibuqt0mT6eYxIv9h0dGWlw=='
+# always starts with 'd'
 
 token1 = "ODU5MjMzMDY2OTQ0ODIzMzE3.GQm4Zl.PofESIP3Wl6Twx_jzXiCzMxqYaHlHyZ4uyIrwMS"
 
