@@ -16,10 +16,10 @@ print('Len of token 2: ', len(token2))
 print('Len of token 3: ', len(token3))
 print('Len of token 4: ', len(token4))
 
-dis_id1 = 'ODU5MjMzMDY2OTQ0ODIzMzE3.GQm4'  # token with prefix OD Takes the first 4 chars after the period (.)
-dis_id2 = 'NTQ2OTEwNjkzODI4NDYwNTg1'       # token with prefix NT Takes No chars after the period (.)
-dis_id3 = 'MTAwMjE1NTA5ODkyMDcxODMzNg.GC'  # token with prefix MT Takes the first 2 chars after the period (.)
-dis_id4 = 'MTE1Nzc2MTA5OTI4Mjc5NjY4OA.G8'  # token with prefix MT Takes the first 2 chars after the period (.)
+dis_id1 = 'ODU5MjMzMDY2OTQ0ODIzMzE3.GQm4'  # token with prefix OD Takes the first 4 chars after the period (.) To Decode The Discord ID
+dis_id2 = 'NTQ2OTEwNjkzODI4NDYwNTg1'       # token with prefix NT Takes No chars after the period (.) To Decode The Discord ID
+dis_id3 = 'MTAwMjE1NTA5ODkyMDcxODMzNg.GC'  # token with prefix MT Takes the first 2 chars after the period (.) To Decode The Discord ID
+dis_id4 = 'MTE1Nzc2MTA5OTI4Mjc5NjY4OA.G8'  # token with prefix MT Takes the first 2 chars after the period (.) To Decode The Discord ID
 
 dec1 = base64.b64decode(dis_id1)
 dec2 = base64.b64decode(dis_id2)
